@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% block content %}
+<h1> HELP</h1>
+ <p>HELLLOOOO </p>
+ {% for my_item in mylist %}
+   <li>{{forloop.counter}} - {{my_item}} </li>
+    {% if my_item == 4 %}
+     <p> {{text}} - {{my_item|add:10}}</p>
+     {% endif %}
+{% endfor %}
+{% endblock %}
