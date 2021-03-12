@@ -1,1 +1,1 @@
-# Django_for_backend
+This is a backend of django for login and sigup using django templates and static files for adding css! For database this has been using models of django! With all of that there is also implemented django rest api(Email Fetching) and that api is consumed using react-frontend
